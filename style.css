@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #2980B9;
+    --background-color: #ECF0F1;
+    --font-size-large: 1.5em;
+}
+
+*{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    color: var(--primary-color);
+    background-color: #F7F9F9;
+}
+
+body p{
+        font-size: 1em;
+        margin: 0.5em 0;
+}
+
+body .info__contacto{
+    align-items: center;
+    justify-content: center;
+}
+
+body .presentacion img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+}
+
+body .presentacion p {
+    font-size: var(--font-size-large);
+    color: #34495E;
+    font-weight: 700;
+}
+
+body h2 {
+    font-size: var(--font-size-large);
+    color: #223160;
+    margin-bottom: 1rem;
+}
+
+body div{
+    border: 2px solid var(--secondary-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+}
+
+body .info__contacto{
+    background-color: var(--background-color);
+    border-radius: 1rem;
+}
+
+.soft__skill p,
+.software__skill p {
+    color: #8E44AD;
+    font-size: 1em;
+}
+
+body .idiomas {
+    background-color: #D5DBDB;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    color: #27AE60;
+}
